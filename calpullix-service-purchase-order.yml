@@ -48,7 +48,7 @@ hystrix:
       execution: 
         isolation: 
           thread:
-            timeoutInMilliseconds: 10
+            timeoutInMilliseconds: 40000
           semaphore: 
             maxConcurrentRequest: 500
             
