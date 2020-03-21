@@ -40,7 +40,7 @@ hystrix:
   command: 
     invoke: 
       circuitBreaker:
-        requestVolumeThreshold: 2
+        requestVolumeThreshold: 35
         sleepWindowInMilliseconds: 1000
       metrics:
         rollingStatus:
@@ -50,7 +50,7 @@ hystrix:
           thread:
             timeoutInMilliseconds: 40000
           semaphore: 
-            maxConcurrentRequest: 2
+            maxConcurrentRequest: 500
             
 logging:
   level:
