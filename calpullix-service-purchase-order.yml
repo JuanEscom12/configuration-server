@@ -50,7 +50,7 @@ hystrix:
           thread:
             timeoutInMilliseconds: 10000
           semaphore: 
-            maxConcurrentRequest: 500
+            maxConcurrentRequest: 2
             
 logging:
   level:
@@ -91,7 +91,6 @@ app:
   path-retrieve-purchaseorder-status: /purchaseorder/status/retrieve
   path-retrieve-purchaseorder-pdf: /purchase-order/pdf/{idPurchaseOrder}
   path-retrieve-pdf: /calpullix/purchase-order/pdf/
-  local-domain: http://192.168.100.111:9100
   scheduling-expression: 0 02 18 * * ?
   purchase-order-descrption: Orden de compra  
   pagination-size: 5
