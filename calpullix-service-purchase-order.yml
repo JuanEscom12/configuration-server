@@ -40,7 +40,7 @@ hystrix:
   command: 
     invoke: 
       circuitBreaker:
-        requestVolumeThreshold: 35
+        requestVolumeThreshold: 2
         sleepWindowInMilliseconds: 1000
       metrics:
         rollingStatus:
