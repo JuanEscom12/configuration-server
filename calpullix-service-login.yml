@@ -83,6 +83,8 @@ app:
   message-error-location-body: Body
   path-login: /calpullix/login
   
+jwt:
+  secret: javainuse
       
       
   
