@@ -83,7 +83,7 @@ app:
   path-login: /login
   
 jwt:
-  secret: javainuse
+  secret-key: javainuse
       
       
   
