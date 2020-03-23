@@ -27,7 +27,6 @@ spring:
       client:
         url: http://localhost:9550
 
-  
 hystrix:
   threadpool:
     default:
