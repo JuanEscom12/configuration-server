@@ -81,7 +81,7 @@ eureka:
   
 app:
   message-error-location-body: Body
-  path-login: /calpullix/login
+  path-login: /login
   
 jwt:
   secret: javainuse
