@@ -90,6 +90,7 @@ app:
   path-update-purchaseorder: /update/purchaseorder
   path-retrieve-purchaseorder-status: /purchaseorder/status/retrieve
   path-retrieve-purchaseorder-pdf: /purchase-order/pdf/{idPurchaseOrder}
+  path-retrieve-pdf: /calpullix/purchase-order/pdf/
   scheduling-expression: 0 02 18 * * ?
   purchase-order-descrption: Orden de compra  
   pagination-size: 5
