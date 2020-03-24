@@ -81,6 +81,7 @@ eureka:
 app:
   message-error-location-body: Body
   path-login: /login
+  path-login-token: /login/token
   
 jwt:
   secret-key: javainuse
