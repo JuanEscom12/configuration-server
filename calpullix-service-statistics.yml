@@ -71,5 +71,5 @@ eureka:
 app:
   message-error-location-body: Body
   path-retrieve-statistics: /calpullix/statistics/retrieve
-  
+  max-pool-size: 20
  
