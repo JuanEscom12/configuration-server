@@ -10,6 +10,7 @@ spring:
     password: adminadmin
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
+    show-sql: true
     properties:
       hibernate:
         enable_lazy_load_no_trans: true    
