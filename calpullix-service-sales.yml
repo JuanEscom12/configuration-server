@@ -71,4 +71,5 @@ eureka:
 app:
   message-error-location-body: Body
   path-retrieve-sales: /calpullix/sales/retrieve
+  max-pool-size: 20
   
