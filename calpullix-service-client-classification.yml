@@ -76,6 +76,7 @@ app:
   path-update-client-promotions: /calpullix/update/client/promotions
   path-retrieve-client-product-recomendations: /calpullix/client/recomendation/product/retrieve
   path-retrieve-client-promotions-recomendations: /calpullix/client/recomendation/promotions/retrieve
+  path-retrieve-users-regression: /calpullix/client/users/regression/retrieve
   pagination-size: 5
   query-branch: SELECT B.name as name FROM Product_Branch as PB, Customers as C, Branch as B WHERE PB.idCustomer = C.id AND PB.idBranch = B.id AND C.idProfile = ? GROUP BY B.name ORDER BY COUNT(*) DESC LIMIT 3
   query-product: SELECT P.name as name FROM Product_Branch as PB, Customers as C, Product as P, Product_History as PH WHERE PB.idCustomer = C.id AND PB.idProductHistory = PH.id AND PH.idProduct = P.id AND C.idProfile = ? GROUP BY P.name ORDER BY COUNT(*) DESC LIMIT 3
