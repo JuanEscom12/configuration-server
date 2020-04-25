@@ -86,5 +86,9 @@ app:
   first-label-regression: Usuarios deudores
   second-label-regression: Usuarios regulares
   pagination-product-promotion-size: 10
-     
+  left-current-label-regression: Clientes ocasionales
+  loyal-current-label-regression: Clientes frecuentes
+  left-last-label-regression: Clientes ocasionales (última clasif.)
+  loyal-last-label-regression: Clientes frecuentes (última clasif.)
+
  
