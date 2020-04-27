@@ -74,6 +74,7 @@ app:
   path-best-branch: /calpullix/best/branch
   path-get-branch: /calpullix/branch/retrieve
   path-get-branch-list: /calpullix/branch/list
+  path-get-branch-dummy: /calpullix/branch/dummy
   pagination-size: 5
   procedure-name: calpullix_branch_information
       
