@@ -41,14 +41,14 @@ hystrix:
     invoke: 
       circuitBreaker:
         requestVolumeThreshold: 35
-        sleepWindowInMilliseconds: 1000
+        sleepWindowInMilliseconds: 100000
       metrics:
         rollingStatus:
           timeInMilliseconds: 600000
       execution: 
         isolation: 
           thread:
-            timeoutInMilliseconds: 1000
+            timeoutInMilliseconds: 4000000
           semaphore: 
             maxConcurrentRequest: 500
             
